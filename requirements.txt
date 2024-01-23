@@ -2,6 +2,6 @@ numpy==1.25.0
 pandas==2.0.2
 Pillow==10.1.0
 streamlit==1.30.0
-torch==2.1.1+cu118
+torch==2.1.1
 ultralytics==8.0.232
 

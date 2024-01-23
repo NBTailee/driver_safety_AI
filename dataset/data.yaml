@@ -1,0 +1,6 @@
+train: C:\Users\leduc\OneDrive\Desktop\car_ai\drowsy_driver\dataset\train
+val: C:\Users\leduc\OneDrive\Desktop\car_ai\drowsy_driver\dataset\valid
+test: C:\Users\leduc\OneDrive\Desktop\car_ai\drowsy_driver\dataset\test
+
+nc: 2
+names: ["awake", "drowsy"]

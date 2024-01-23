@@ -1,2 +1,2 @@
-ultralytics==8.0.232
+ultralytics
 git+https://github.com/ultralytics/yolov5

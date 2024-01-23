@@ -4,9 +4,7 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 import torch
-import matplotlib.pyplot as plt
-import cv2
-import base64
+
 
 if "conf" not in st.session_state:
     st.session_state["conf"] = 0

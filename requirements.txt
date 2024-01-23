@@ -5,3 +5,4 @@ streamlit==1.30.0
 torch==2.1.1+cu118
 ultralytics==8.0.232
 opencv-python==4.8.1.78
+git+https://github.com/ultralytics/yolov5

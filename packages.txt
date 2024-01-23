@@ -1,2 +1,1 @@
-ultralytics
-git+https://github.com/ultralytics/yolov5
+libgl1

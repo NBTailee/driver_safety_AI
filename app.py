@@ -23,7 +23,7 @@ def load_model(type):
         _model = YOLO("./driver_safety_AI/model/drowsy.pt")
     elif(type == "seatbelt"):
         torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
-        _model = torch.hub.load("ultralytics/yolov5", "custom", path="./driver_safety_AI/model/seatbelt.pt", force_reload=True)
+        _model = torch.hub.load("ultralytics/yolov5", "custom", path="./driver_safety_AI/model/seatbelt.pt", force_reload=True, skip_validation=True)
     return _model
 st.subheader("Loading the model")
 

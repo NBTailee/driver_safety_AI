@@ -20,11 +20,10 @@ st.write("Type Chosen: ", option)
 @st.cache_data
 def load_model(type):
     if(type == "drowsy"):
-        _model = YOLO("./drowsy_driver/model/drowsy.pt")
+        _model = YOLO("./driver_safety_AI/model/drowsy.pt")
     elif(type == "seatbelt"):
-        _model = torch.hub.load("ultralytics/yolov5", "custom", path=r"./drowsy_driver/model/seatbelt.pt", force_reload=True)
+        _model = torch.hub.load("ultralytics/yolov5", "custom", path="./driver_safety_AI/model/seatbelt.pt", force_reload=True)
     return _model
-
 st.subheader("Loading the model")
 
 if option == None:

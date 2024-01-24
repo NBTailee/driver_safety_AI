@@ -50,10 +50,10 @@ else:
         st.subheader("F1-Curve")
         col1, col3, col2 = st.columns(3, gap="small")
         with col1:
-            ori_img = Image.open("./drowsy_driver/web/F1_curve_drowsy.jpg")
+            ori_img = Image.open("./web/F1_curve_drowsy.jpg")
             st.image(ori_img,width=400 ,caption="Drowsy")
         with col2:
-            ori_img = Image.open("./drowsy_driver/web/F1_curve_seatbelt.jpg")
+            ori_img = Image.open("./web/F1_curve_seatbelt.jpg")
             st.image(ori_img,width=400 ,caption="Seatbelt")
         st.text("RECOMMEND Drowsy:0.4 & Seatbelt:0.4")
         st.slider("Choose Confidence Interval", 0.0,1.0, key="conf", value=0.4, step=0.1)
